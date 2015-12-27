@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  VideoFromQRCode
+
+  Created by LaoWen on 15/12/24.
+  Copyright © 2015年 LaoWen. All rights reserved.
+*/
+CFBundleDisplayName = "扫码看剧";
+scan = "Scan...";//扫二维码看电视剧
+delete = "Delete";//TableViewCell中的删除按钮
