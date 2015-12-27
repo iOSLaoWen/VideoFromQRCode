@@ -1,0 +1,10 @@
+#xcode niose
+build/*
+*.pbxuser
+*.modelv3
+#old sktool
+.svn
+#os x noise
+.DS_Store
+profile
+
