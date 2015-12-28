@@ -10,7 +10,6 @@
 #import "JSONModel.h"
 
 @protocol TeleplaySectionModel <NSObject>
-
 @end
 
 @interface TeleplaySectionModel : JSONModel
@@ -26,6 +25,6 @@
 
 @property (nonatomic, assign)unsigned long long ID;
 @property (nonatomic, strong)NSString *name;//电视剧名
-@property (nonatomic, strong)NSArray<TeleplaySectionModel *> *sections;//各集列表
+@property (nonatomic, strong)NSArray<TeleplaySectionModel> *sections;//各集列表
 
 @end

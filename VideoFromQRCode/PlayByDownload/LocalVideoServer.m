@@ -56,7 +56,7 @@
     //绑定端口、监听端口，接收来自客户端的连接请求
     NSError *error;
     if (![_serverSocket acceptOnPort:self.port error:&error]) {
-        NSLog(@"acceptOnPort %d fail: %@", self.port, error.localizedDescription);
+        NSLog(@"acceptOnPort %ld fail: %@", self.port, error.localizedDescription);
         ret = NO;
     }
     

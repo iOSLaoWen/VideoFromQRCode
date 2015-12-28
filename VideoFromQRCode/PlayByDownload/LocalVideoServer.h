@@ -19,6 +19,4 @@
 - (BOOL)start;
 - (void)stop;
 
-- (void)onVideoDownloaderDownloadAFile:(NSString *)fileName;
-
 @end

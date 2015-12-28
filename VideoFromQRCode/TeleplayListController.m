@@ -85,8 +85,6 @@
         //二维码给的网址对应一个json文件，里边存的是一部电视剧的信息
         //TODO:JSOnModel应该可以一步解决模型嵌套问题
         TeleplayModel *model = [[TeleplayModel alloc]initWithData:data error:nil];
-        NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-        model.sections = [TeleplaySectionModel arrayOfModelsFromDictionaries:dict[@"sections"] error:nil];
         NSLog(@"model: %@", model);
         
         //将这部电视剧存入数据库
